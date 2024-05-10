@@ -31,25 +31,19 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - MySQL or any other supported database
 - Node.js and npm
 
-### Clone the Repository
+### INSTALLATION GUIDE
 
 ```bash
 git clone https://github.com/your-username/your-laravel-repo.git
 cd your-laravel-repo
 
 ### Install Composer 
-
-```bash
 composer install
 
 ### Configure the Environment
-
-```bash
 cp .env.example .env
 php artisan key:generate
 
 ### Run migrations to create the database tables
-
-```bash
 php artisan migrate
 
