@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RequestDeposite;
 use App\Http\Requests\RequestWithdrawal;
-use App\Models\transactions;
+use App\Models\Transactions;
 use App\Models\User;
 use Carbon\Carbon;
 use Exception;
