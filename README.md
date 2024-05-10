@@ -47,3 +47,6 @@ php artisan key:generate
 ### Run migrations to create the database tables
 php artisan migrate
 
+### Finally Run it
+php artisan serve
+
