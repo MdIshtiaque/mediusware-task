@@ -36,3 +36,20 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ```bash
 git clone https://github.com/your-username/your-laravel-repo.git
 cd your-laravel-repo
+
+### Install Composer 
+
+```bash
+composer install
+
+### Configure the Environment
+
+```bash
+cp .env.example .env
+php artisan key:generate
+
+### Run migrations to create the database tables
+
+```bash
+php artisan migrate
+
